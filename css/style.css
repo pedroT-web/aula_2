@@ -1,0 +1,35 @@
+ /* style serve para mudar as propriedades das informações 
+    color muda a cor da letra  */
+    h1{
+        color:blue;
+    }
+
+    /* sempre que tiver um . antes do nome, está se refirindo a uma classe*/
+    .corzinha{
+        color:tomato;
+        background-color:black;
+    }
+
+     /* background-color muda o fundo da escrita 
+    font-size:numeropx muda o tamanho da fonte   */
+    p{
+      color:aliceblue;
+      background:tomato;
+      font-size:25px;  
+    }
+
+    img{
+        /* define a altura da imagem */
+        height: 300px; 
+        
+        /* define a largura da imagem  */
+        width: 300px;   
+
+        /* Corte do objeto */
+        object-fit: cover;
+
+        /* pode cria borda em bolta da imagen */
+        border: 10px solid green;
+        /* Ele arredonda as bordas */
+        border-radius: 15px;
+    }
